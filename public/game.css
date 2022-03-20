@@ -1,0 +1,62 @@
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #003049;
+  padding: 10px;
+}
+
+.grid-item {
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid rgba(0, 48, 73, 0.8);
+  padding: 20px;
+  font-size: x-large;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  width: 100px; height: 100px;
+}
+
+.grid-item-occupied {
+  background-color:  #f77f00;
+}
+
+.center-grid {
+  text-align:center
+}
+
+.area {
+  position: relative;
+  flex: 1 0 auto;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+.area .cover {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.5);
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  font-size: xxx-large;
+}
+
+.title {
+  display: flex;
+  font-size: xxx-large;
+  justify-content: center; /* align horizontal */
+  padding-bottom: 25px;
+}
+
+.howToPlay {
+  display: flex;
+  font-size: large;
+  align-items: center;
+  justify-content: center; /* align horizontal */
+  padding-top: 25px;
+}
